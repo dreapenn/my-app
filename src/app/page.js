@@ -3,7 +3,7 @@ import Image from "next/image";
 export default function Home() {
   return (
     <main>
-      <div style={{'--image-url': "url('./Website Pictures/backimg.JPG')"}} className='container mx-auto h-screen bg-[image:var(--image-url)] bg-scroll columns-2'>
+      <div style={{'--image-url': "url('/my-app/public/Website Pictures/backimg.JPG')"}} className='container mx-auto h-screen bg-[image:var(--image-url)] bg-scroll columns-2'>
         <div>
           <div>
             <p className="sticky top-0 left-0 p-4 inline-block text-center lg:space-x-4 border-b text-md font-mono font-semibold tracking-wide text-slate-600 subpixel-antialiased indent-2 rounded-full bg-gray-200">
@@ -17,7 +17,7 @@ export default function Home() {
                href=""
                >
               <Image
-               src={"./Website Pictures/IMG_3975.JPG"}
+               src={"/my-app/public/Website Pictures/IMG_3975.JPG"}
                alt="Andrea Brandt"
                className="rounded-full justify-around border-8 lg:size-auto"
                width = {90}
@@ -30,7 +30,7 @@ export default function Home() {
         <div className="sticky columns-3 bg-transparent top-40 lg:right-40">
         <a>
         <Image
-          src={"./Website Pictures/IMG_6503.jpg"}
+          src={"/my-app/public/Website Pictures/IMG_6503.jpg"}
           alt="Graduation Photo"
           className="rounded-full justify-around border-8 lg:size-auto border-gray-500 hover:border-zinc-50"
           width = {90}
@@ -38,7 +38,7 @@ export default function Home() {
         </a>
         <a>
         <Image
-          src={"./Website Pictures/IMG_7661.JPG"}
+          src={"/my-app/public/Website Pictures/IMG_7661.JPG"}
           alt="Hangang River"
           className="rounded-full justify-around border-8 lg:size-auto border-gray-500 hover:border-zinc-50"
           width = {90}
@@ -46,7 +46,7 @@ export default function Home() {
         </a>
         <a>
         <Image
-          src={"./Website Pictures/IMG_8147.JPG"}
+          src={"/my-app/public/Website Pictures/IMG_8147.JPG"}
           alt="Amsterdam"
           className="rounded-full justify-around border-8 lg:size-auto border-gray-500 hover:border-zinc-50"
           width={90}
