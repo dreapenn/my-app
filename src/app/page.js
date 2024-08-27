@@ -30,7 +30,7 @@ export default function Home() {
         <div className="sticky columns-3 bg-transparent top-40 lg:right-40">
         <a>
         <Image
-          src={"/Website Pictures/IMG_6503.JPG"}
+          src={"/Website Pictures/IMG_6503.jpg"}
           alt="Graduation Photo"
           className="rounded-full justify-around border-8 lg:size-auto border-gray-500 hover:border-zinc-50"
           width = {90}
