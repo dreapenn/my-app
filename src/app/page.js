@@ -3,12 +3,11 @@ import Image from "next/image";
 export default function Home() {
   return (
     <main>
-      <div className='container mx-auto h-screen bg-[image:var(url('/Website-Pictures/backimg.JPG'))] bg-scroll columns-2'>
+      <div style={{'--image-url': "url('./Website-Pictures/backimg.JPG')"}} className='container mx-auto h-screen bg-[image:var(url(--image-url))] bg-scroll columns-2'>
         <div>
           <div>
             <p className="sticky top-0 left-0 p-4 inline-block text-center lg:space-x-4 border-b text-md font-mono font-semibold tracking-wide text-slate-600 subpixel-antialiased indent-2 rounded-full bg-gray-200">
-           Nice to meet you, my name is Andrea Brandt! Welcome to my website
-           .&nbsp;
+           Nice to meet you, my name is Andrea Brandt! Welcome to my website.&nbsp;
           </p>
           </div>
           <div className="absolute top-0 right-0 inline-block border-b aspect-square align-center text-nowrap text-right text-sm size-cover rounded-full bg-gray-300 font-sans leading-6 break-after-right">
