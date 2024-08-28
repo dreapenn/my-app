@@ -7,7 +7,7 @@ export default function Home() {
         <Image
                src={"./Website-Pictures/backimg.JPG"}
                alt="Andrea Brandt"
-               className="absolute h-screen w-screen size-cover order-first"
+               className="absolute h-screen w-cover size-cover order-first"
                width = {90}
                height={100}/>
         <div>
