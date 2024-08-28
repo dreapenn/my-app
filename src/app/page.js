@@ -19,7 +19,7 @@ export default function Home() {
               <Image
                src={"./Website-Pictures/IMG_3975.JPG"}
                alt="Andrea Brandt"
-               className="rounded-full justify-around border-8 lg:size-auto"
+               className="rounded-full justify-around border-8"
                width = {90}
                height={100}/>
                
