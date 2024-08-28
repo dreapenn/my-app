@@ -4,6 +4,12 @@ export default function Home() {
   return (
     <main>
       <div style={{'--image-url': "url('./backimg.JPG')"}} className='container mx-auto h-screen bg-[image:var(--image-url)] bg-scroll columns-2'>
+        <Image
+               src={"./Website-Pictures/backimg.JPG"}
+               alt="Andrea Brandt"
+               className="h-screen size-cover order-first"
+               width = {90}
+               height={100}/>
         <div>
           <div>
             <p className="sticky top-0 left-0 p-4 inline-block text-center lg:space-x-4 border-b text-md font-mono font-semibold tracking-wide text-slate-600 subpixel-antialiased indent-2 rounded-full bg-gray-200">
