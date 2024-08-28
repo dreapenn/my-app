@@ -3,7 +3,7 @@ import Image from "next/image";
 export default function Home() {
   return (
     <main>
-      <div className='container mx-auto h-screen bg-[url("./Website-Pictures/backimg.JPG")] bg-scroll columns-2 bg-no-repeat'>
+      <div class='container mx-auto h-screen bg-[url("./Website-Pictures/backimg.JPG")] bg-scroll columns-2 bg-no-repeat'>
         <div>
           <div>
             <p className="sticky top-0 left-0 p-4 inline-block text-center lg:space-x-4 border-b text-md font-mono font-semibold tracking-wide text-slate-600 subpixel-antialiased indent-2 rounded-full bg-gray-200">
