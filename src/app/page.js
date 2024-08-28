@@ -67,13 +67,13 @@ export default function Home() {
            rel="noopener noreferrer"
            target="_blank"
          >
-           <h2 className={`mb-3 text-2xl font-semibold`}>
+           <h2 className={`mb-3 text-2xl font-semibold text-stone-950`}>
              Linkedin{" "}
               <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
                -&gt;
              </span>
            </h2>
-           <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
+           <p className={`m-0 max-w-[30ch] text-sm opacity-50 text-stone-800`}>
              Find out more information on my background and qualifications!
             </p>
          </a>
@@ -84,13 +84,13 @@ export default function Home() {
             target="_blank"
             rel="noopener noreferrer"
             >
-           <h2 className={`mb-3 text-2xl font-semibold`}>
+           <h2 className={`mb-3 text-2xl font-semibold text-stone-950`}>
              Github{" "}
              <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
                -&gt;
              </span>
            </h2>
-           <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
+           <p className={`m-0 max-w-[30ch] text-sm opacity-50 text-stone-800`}>
            Come check out my Github!&nbsp; It hosts this website!
            </p>
           </a>
@@ -101,13 +101,13 @@ export default function Home() {
            target="_blank"
            rel="noopener noreferrer"
            >
-            <h2 className={`mb-3 text-2xl font-semibold`}>
+            <h2 className={`mb-3 text-2xl font-semibold text-stone-950`}>
              Research{" "}
              <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
                -&gt;
              </span>
             </h2>
-            <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
+            <p className={`m-0 max-w-[30ch] text-sm opacity-50 text-stone-800`}>
              Video link of a presentation I gave on an HCI-related research project!
             </p>
           </a>
@@ -118,13 +118,13 @@ export default function Home() {
            target="_blank"
            rel="noopener noreferrer"
             >
-            <h2 className={`mb-3 text-2xl font-semibold`}>
+            <h2 className={`mb-3 text-2xl font-semibold text-stone-950`}>
              Resume{" "}
              <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
                -&gt;
              </span>
             </h2>
-            <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
+            <p className={`m-0 max-w-[30ch] text-sm opacity-50 text-stone-800`}>
                Link to my resume with full details of my experience & education!
             </p>
           </a>
